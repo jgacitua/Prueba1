@@ -16,5 +16,16 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+    <style name="Gtug_Widget.Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/fondo_btn</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:shadowColor">#aa000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.5</item>
+
+        <item name="android:minHeight">50dip</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+</style>
 
 </resources>
