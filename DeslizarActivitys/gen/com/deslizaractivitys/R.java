@@ -22,30 +22,34 @@ public final class R {
     }
     public static final class drawable {
         public static final int btn_style=0x7f020000;
-        public static final int edit_txt_style=0x7f020001;
-        public static final int edit_txt_style2=0x7f020002;
-        public static final int fondo_btn=0x7f020003;
-        public static final int fondo_btn_default=0x7f020004;
-        public static final int fondo_btn_press=0x7f020005;
-        public static final int fondo_portrait=0x7f020006;
-        public static final int fondo_portrait2=0x7f020007;
-        public static final int fondo_portrait3=0x7f020008;
-        public static final int fondo_portrait4=0x7f020009;
-        public static final int fondo_portrait5=0x7f02000a;
-        public static final int ic_launcher=0x7f02000b;
-        public static final int rounded_text_field=0x7f02000c;
-        public static final int rounded_text_field_selected=0x7f02000d;
-        public static final int textfield_default=0x7f02000e;
-        public static final int textfield_disabled=0x7f02000f;
-        public static final int textfield_disabled_selected=0x7f020010;
-        public static final int textfield_pressed=0x7f020011;
-        public static final int textfield_selected=0x7f020012;
+        public static final int btn_style_naranja=0x7f020001;
+        public static final int edit_txt_style=0x7f020002;
+        public static final int edit_txt_style2=0x7f020003;
+        public static final int fondo_btn=0x7f020004;
+        public static final int fondo_btn_default=0x7f020005;
+        public static final int fondo_btn_default_naranja=0x7f020006;
+        public static final int fondo_btn_naranja=0x7f020007;
+        public static final int fondo_btn_press=0x7f020008;
+        public static final int fondo_portrait=0x7f020009;
+        public static final int fondo_portrait2=0x7f02000a;
+        public static final int fondo_portrait3=0x7f02000b;
+        public static final int fondo_portrait4=0x7f02000c;
+        public static final int fondo_portrait5=0x7f02000d;
+        public static final int ic_launcher=0x7f02000e;
+        public static final int rounded_text_field=0x7f02000f;
+        public static final int rounded_text_field_selected=0x7f020010;
+        public static final int textfield_default=0x7f020011;
+        public static final int textfield_disabled=0x7f020012;
+        public static final int textfield_disabled_selected=0x7f020013;
+        public static final int textfield_pressed=0x7f020014;
+        public static final int textfield_selected=0x7f020015;
     }
     public static final class id {
         public static final int LinearLayout1=0x7f080000;
         public static final int ViewFlipper01=0x7f080001;
-        public static final int action_settings=0x7f08000a;
+        public static final int action_settings=0x7f08000b;
         public static final int button1=0x7f080009;
+        public static final int button2=0x7f08000a;
         public static final int editText1=0x7f080005;
         public static final int editText2=0x7f080006;
         public static final int libraryView1=0x7f080002;

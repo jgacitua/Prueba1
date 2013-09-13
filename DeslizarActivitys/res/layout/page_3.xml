@@ -20,12 +20,13 @@
         android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:layout_marginTop="10dp"
+        android:background="@drawable/edit_txt_style2"
         android:ems="10"
         android:hint="Usuario"
-        android:background="@drawable/edit_txt_style2" >
+        android:width="150dp" >
 
         <requestFocus />
     </EditText>
@@ -35,23 +36,46 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/edit_txt_style2"
         android:ems="10"
         android:hint="Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:width="150dp" />
 
-    <Button
-        android:id="@+id/button1"
-        style="@style/EstiloBlancasText"
-        android:layout_width="162dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/btn_style"
-        android:text="Button"
-        android:textColor="#FFFFFF" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.11"
+            android:background="@drawable/btn_style"
+            android:text="Ingresar"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.14"
+            android:background="@drawable/btn_style_naranja"
+            android:text="Registrarse"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textView2"
@@ -62,15 +86,5 @@
         android:layout_marginTop="30dp"
         android:text="&quot;Esta Aplicacion esta hecha para gente gay como tu , disfruta de fnashop&quot;"
         android:textAppearance="@style/EstiloCelesteText" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="50dp"
-        android:text="Registrarse"
-        android:textAppearance="@style/EstiloCelesteText"
-        android:textSize="15sp" />
 
 </LinearLayout>
