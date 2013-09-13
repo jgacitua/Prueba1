@@ -36,13 +36,17 @@ public final class R {
         public static final int fondo_portrait4=0x7f02000c;
         public static final int fondo_portrait5=0x7f02000d;
         public static final int ic_launcher=0x7f02000e;
-        public static final int rounded_text_field=0x7f02000f;
-        public static final int rounded_text_field_selected=0x7f020010;
-        public static final int textfield_default=0x7f020011;
-        public static final int textfield_disabled=0x7f020012;
-        public static final int textfield_disabled_selected=0x7f020013;
-        public static final int textfield_pressed=0x7f020014;
-        public static final int textfield_selected=0x7f020015;
+        public static final int logotest=0x7f02000f;
+        public static final int logotest2=0x7f020010;
+        public static final int logotest3=0x7f020011;
+        public static final int logotest4=0x7f020012;
+        public static final int rounded_text_field=0x7f020013;
+        public static final int rounded_text_field_selected=0x7f020014;
+        public static final int textfield_default=0x7f020015;
+        public static final int textfield_disabled=0x7f020016;
+        public static final int textfield_disabled_selected=0x7f020017;
+        public static final int textfield_pressed=0x7f020018;
+        public static final int textfield_selected=0x7f020019;
     }
     public static final class id {
         public static final int LinearLayout1=0x7f080000;

@@ -77,14 +77,14 @@
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="80dp"
-        android:layout_marginRight="50dp"
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
-        android:text="&quot;Esta Aplicacion esta hecha para gente gay como tu , disfruta de fnashop&quot;"
-        android:textAppearance="@style/EstiloCelesteText" />
+        android:background="@drawable/logotest4"
+        android:orientation="vertical" >
+
+    </LinearLayout>
 
 </LinearLayout>
